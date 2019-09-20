@@ -1,0 +1,10 @@
+// @button-primary__background: red;
+.action.primary {
+    // .lib-css(background, green);
+    // .lib-css(color, black);
+    // // background-attachment: fixed;
+    .lib-button-primary(@_button-background: yellow,@_button-color:black);
+    &:hover{
+        .lib-css(background,pink);
+    }
+}
